@@ -1,8 +1,9 @@
 const path = require('path')
 
 module.exports = {
+  pathPrefix: "/ux-writing-portfolio",
   siteMetadata: {
-    title: `Gabriel Adorf`,
+    title: `Richa Chaturvedi`,
   },
   plugins: [
     {

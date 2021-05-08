@@ -21,7 +21,7 @@ const GlobalWrapper = (props) => {
     <Fragment>
       <Helmet>
         <html lang="en" />
-        <title>Gabriel Adorf</title>
+        <title>Richa Chaturvedi</title>
         <meta name="description" content="Gabriel Adorf's projects" />
         <meta
           name="keywords"

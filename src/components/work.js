@@ -10,10 +10,10 @@ import PalettteAppLogo from 'img/palettteapplogo'
 import LifeTimeLogo from 'img/lifetimelogo'
 import BamLogo from 'img/bamlogo'
 
-const LifeTimeLink = <Link to="/lifetime">Read More</Link>
-const PalettteLink = <Link to="/palettteapp">Read More</Link>
-const KellerkindLink = <Link to="/kellerkind">Read More</Link>
-const BamLink = <Link to="/bam">Read More</Link>
+const LifeTimeLink = <Link to="/lifetime">View Project Details</Link>
+const PalettteLink = <Link to="/palettteapp">View Project Details</Link>
+const KellerkindLink = <Link to="/kellerkind">View Project Details</Link>
+const BamLink = <Link to="/bam">View Project Details</Link>
 
 const Work = () => {
   return (
@@ -24,26 +24,30 @@ const Work = () => {
         <Fragment>
           <Project
             logo={LifeTimeLogo()}
-            title="LifeTime"
-            abstract="Secure messenger for the healthcare sector."
+            title="UniCards"
+            abstract="New-age credit cards catering to the unmet needs of millions of Indians."
             link={LifeTimeLink}
           />
           <Project
             logo={PalettteAppLogo()}
-            title="Palettte App"
-            abstract="Build, analyze and edit smooth color palettes."
+            title="Fisdom"
+            abstract="Fisdom is an extremely simple app to make smart investments."
             link={PalettteLink}
           />
           <Project
             logo={KellerkindLogo()}
-            title="Kellerkind"
-            abstract="Social event company organizing two festivals for electronic music and art with ~20.000 yearly visitors north of munich."
+            title="Yulu"
+            abstract="Micro-mobility solutions that help reduce traffic congestion and air pollution.
+            As the first UX writer in the house, I was responsible to create a standard documentation for the company to KKKKset the content guidelines.
+            "
             link={KellerkindLink}
           />
           <Project
             logo={BamLogo()}
-            title="Bäm"
-            abstract="Climbing products and other stuff that give you the extra bäm effect."
+            title="ABB"
+            abstract="ABB is a leading global technology company that energizes the transformation of society and industry to achieve a more productive, sustainable future.
+            Have worked in the content team under Corporate Communication to develop content for the global audience
+            "
             link={BamLink}
           />
         </Fragment>

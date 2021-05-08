@@ -30,22 +30,18 @@ const About = () => {
       rightColumn={
         <Fragment>
           <Big>
-            Hi. I'm Gabriel, a UI and UX designer living in&nbsp;Berlin. I bring
-            ideas to life with design and&nbsp;code.
+            Hi. I'm Richa, a UX Writer at Uni Cards, Bangalore (India) . I bring
+            ideas to life with communication and empathy .
           </Big>
           <p>
-            In my work I strive to optimize the aesthetic value and usability of
-            products without losing sight of the technical challenges and
-            limitations.
+          I started my post college journey with Fisdom, a Fintech startup which dealt with financial services like loan, insurance, mutual funds, gold etc. I was a UX Writer in their Product team.
           </p>
           <p>
-            I am currently designing the future of medical infrastructure at{' '}
-            <Link to="/lifetime">LifeTime</Link> and hosting electronic music
-            festivals with <Link to="/kellerkind">Kellerkind</Link>.
+            Right now, I'm working as a UX Writer in the founding team of {' '}
+            <Link to="/lifetime">Uni Cards</Link> which is yet to be launched .
           </p>
           <p style={{ marginBottom: 0 }}>
-            Outside of work I'm passionate about my family, climbing,
-            windsurfing, snowboarding and mountain biking.
+          When not working you can find me petting dogs, watching Standup Comics or writing arguments for a debating competition.
           </p>
         </Fragment>
       }
