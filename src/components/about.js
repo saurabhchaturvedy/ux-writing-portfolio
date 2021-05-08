@@ -38,7 +38,7 @@ const About = () => {
           </p>
           <p>
             Right now, I'm working as a UX Writer in the founding team of {' '}
-            <Link to="/lifetime">Uni Cards</Link> which is yet to be launched .
+            <a href="https://techcrunch.com/2020/10/05/india-uni-credit-card-startup-raises-18-5-million/" target="_blank" >Uni Cards</a> which is yet to be launched .
           </p>
           <p style={{ marginBottom: 0 }}>
           When not working you can find me petting dogs, watching Standup Comics or writing arguments for a debating competition.
