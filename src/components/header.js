@@ -178,7 +178,7 @@ const Header = (props) => {
       <div>
         <SocialLinks article={props.article}>
           <SocialLink
-            href={`mailto: richachaturvedi1306@gmail.com`}
+            href={`mailto: richac1306@gmail.com`}
             onMouseOver={() => showTooltip('Mail')}
             onFocus={() => showTooltip('Mail')}
             onMouseLeave={hideTooltip}

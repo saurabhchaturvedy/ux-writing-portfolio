@@ -25,13 +25,17 @@ const Work = () => {
           <Project
             logo={LifeTimeLogo()}
             title="UniCards"
-            abstract="New-age credit cards catering to the unmet needs of millions of Indians."
+            abstract="New-age credit cards catering to the unmet needs of millions of Indians.
+            working as a UX Writer in the founding team of Uni Cards which is yet to be launched.
+            "
             link={LifeTimeLink}
           />
           <Project
             logo={PalettteAppLogo()}
             title="Fisdom"
-            abstract="Fisdom is an extremely simple app to make smart investments."
+            abstract="Fisdom is an extremely simple app to make smart investments.
+            I was a lead UX Writer in their Product team
+            "
             link={PalettteLink}
           />
           <Project
