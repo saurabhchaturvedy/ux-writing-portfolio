@@ -1,2 +1,0 @@
-# ux-writing-portfolio
-
