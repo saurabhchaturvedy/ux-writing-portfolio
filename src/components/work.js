@@ -38,7 +38,7 @@ const Work = () => {
             logo={KellerkindLogo()}
             title="Yulu"
             abstract="Micro-mobility solutions that help reduce traffic congestion and air pollution.
-            As the first UX writer in the house, I was responsible to create a standard documentation for the company to KKKKset the content guidelines.
+            As the first UX writer in the house, I was responsible to create a standard documentation for the company to set the content guidelines.
             "
             link={KellerkindLink}
           />
