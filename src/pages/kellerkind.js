@@ -10,11 +10,21 @@ import Footer from 'components/footer'
 import TwoImage from 'components/article/twoimage'
 import LargeImage from 'components/article/largeimage'
 
-import KellerkindCoverImage from 'img/articles/kellerkind/kellerkindCover.jpg'
-import KellerkindImage1 from 'img/articles/kellerkind/schall_im_schilf.jpg'
-import KellerkindImage2 from 'img/articles/kellerkind/back_to_the_woods2.jpg'
-import KellerkindImage4 from 'img/articles/kellerkind/schall_im_schilf2.jpg'
-import KellerkindImage5 from 'img/articles/kellerkind/back_to_the_woods.jpg'
+
+import Yulu1 from 'img/articles/kellerkind/yulu1.png'
+import Yulu2 from 'img/articles/kellerkind/yulu2.png'
+import Yulu3 from 'img/articles/kellerkind/yulu3.png'
+import Yulu4 from 'img/articles/kellerkind/yulu4.png'
+import Yulu5 from 'img/articles/kellerkind/yulu5.png'
+import Yulu6 from 'img/articles/kellerkind/yulu6.png'
+import Yulu7 from 'img/articles/kellerkind/yulu7.png'
+import Yulu8 from 'img/articles/kellerkind/yulu8.png'
+import Yulu9 from 'img/articles/kellerkind/yulu9.png'
+import Yulu10 from 'img/articles/kellerkind/yulu10.png'
+import Yulu11 from 'img/articles/kellerkind/yulu11.png'
+import Yulu12 from 'img/articles/kellerkind/yulu12.png'
+import FullSizeImage from '../components/article/fullsizeimage'
+
 
 const Section = styled.section`
   margin: 64px 0;
@@ -26,158 +36,106 @@ const Section = styled.section`
 const Kellerkind = () => {
   return (
     <GlobalWrapper>
-      <Header title="Kellerkind" />
-      <CoverImage src={KellerkindCoverImage} focusX={'28%'} focusY={'70%'} />
+      <Header title="Yulu" />
       <Section>
         <ContentWrapper>
-          <h2>The beginnings</h2>
+        <h2>Note : All the assets and projects are solemnly a property of Yulu</h2>
+          <h3>Style guidelines for Yulu and revamping the whole app communication</h3>
 
           <p>
-            The first event organized by the Kellerkind crew in 2009 in Garching
-            near Munich was not more than a small techno party of friends for
-            friends in the cellar under a farm house. It was well received, so
-            we organised a major follow-up open air event in 2010.
+          As the first UX writer in the house, I was responsible to create a standard documentation for the company to set the content guidelines. The guidelines are being followed by everyone from the marketing team, developers, business and in the product. 
           </p>
-
           <p>
-            We had no start capital and borrowed the sound equipment free of
-            charge from our school. The refrigerators were provided for free by
-            the local liquor store. Every cent we earned by selling drinks went
-            directly back into the next event.
-          </p>
-
-          <p>
-            From 2010 on, we created two open air events for electronic music
-            per year, each one a little bit bigger and more professional than
-            the previous one. Over the years, we have developed a few basic
-            principles that we initially adhered to unconsciously, but later
-            deliberately decided to stick to in order to keep the events special
-            for both our guests and ourselves. While growing bigger, they should
-            not lose their charm over time.
-          </p>
+          The guidelines also include the voice and tone of the product. Basically, it defines how we want to establish a tone of Yulu as a product. Currently, the guidelines are being used internally-only and will be published soon. 
+            </p>
+            <p>
+            I also worked on creating many friendly & easy response messages collaborating with the developers and removed cluttered & too-wordy texts.
+              </p>
+              <br></br>
+              <FullSizeImage src={Yulu1}/>
+              <br></br>
+              <FullSizeImage src={Yulu2}/>
+              <br></br>
+              <h3>Designing v4.0</h3>
+              <br></br>
+              <h4>Destination Yulu Zone</h4>
+              <p>
+              We’ve just come up with the 4.0 design update a few weeks back. There are almost 5 projects in the 4.0 that I have worked upon. 
+              One of them was designing the home page </p>
+              <p>
+              <b>Problem statement</b> : Most users have feedback that when they take a Yulu ride they don’t know where to park as Yulu is a zone to zone-based vehicle sharing mode.  To see a zone near their destination, they had to look into the Gmaps which weren't efficient because of switching apps while riding.
+              </p>
+              <br></br>
+              <FullSizeImage src={Yulu3}/>
+              <br></br>
+              <p>
+              <b>Solution</b> :
+The designers implemented the destination feature on the home page but again new users were not able to understand why they needed to search for a Yulu Zone to end a ride. Here’s how I solved this problem using the secondary text
+</p>
+<br></br>
+<FullSizeImage src={Yulu4}/>
+<br></br>
+<FullSizeImage src={Yulu5}/>
+<br></br>
+<p>
+<b>Onboarding</b> : The previous onboarding was not very interactive and did not have a complete tutorial of what happens inside the application. What Yulu is for, how to start with it and many onboarding related emotions.
+</p>
+<p>This is how I solved it. With the help of “taking one little step at a time.”</p>
+<br></br>
+<FullSizeImage src={Yulu6}/>
+<br></br>
+<FullSizeImage src={Yulu7}/>
+<br></br>
+<p>
+<b>Location permission</b> : The previous location permission used to ask
+ the location data to the user but there was no reasoning of why we need such sensitive information. 
+ </p>
+ <p>Here it how I solved this problem</p>
+ <br></br>
+<LargeImage src={Yulu9}/>
+<br></br>
+<p>
+<b>Loyalty program</b> : To motivate the users we came up with a loyalty program. I came up with the right name for the coins and the loyalty program and designed this screen.
+     </p>
+     <br></br>
+     <p>There are four other major design projects in which I’ve worked, which are in development & will be soon out in upcoming releases.</p>
+     <LargeImage src={Yulu8}/>
+     <br></br>
+     <h3>Contributed to the new design of Help & Support</h3>
+     <p>
+     <b>Problem statement</b> : In the previous design, the user was mostly stuck in finding the solutions as the no. of clicks were a lot more which was inefficient user experience. Also, the user was more implied to search his/her solution to the problem.
+     </p>
+     <p>
+     <b>Solution</b> : I took the data from the analysts to find the most searched/clicked problem and then wrote them on the design upfront, hence reducing the no. of clicks & made it more transparent. 
+       </p>
+       <br></br>
+       <FullSizeImage src={Yulu10}/>
+       <br></br>
+       <FullSizeImage src={Yulu11}/>
+       <br></br>
+       <p>
+      <b> Redesigning refer & earn</b> : The motive for this was to fix the text as well as fix the tonality of the same and make it more friendly so it can imply the feelings of sharings.
+</p>
+<br></br>
+<FullSizeImage src={Yulu12}/>
+<br></br>
+<h3>User researching & Usability testing</h3>
+<p>
+As a leader of the UX research project, I made an end to end process to streamline the first-ever UX research process in Yulu. I divided the process into four different tasks. 
+First was finalizing the agenda of the process according to a particular problem or situation. Secondly, I used to create a proper list of questions according to each cohort and divide them into a list and calling slots.
+  </p>
+  <p>
+  Third, was the main when the calls used to happen. I love this process as I am a people- person and love to talk. Lastly, I used to take data and create data charts to highlight the major issue. The issue is then further forwarded & solved.
+    </p>
+    <p>
+    Having said, I love talking. I also created the end to end process for usability testing which was first conducted during the release of 4.0 design.  I onboarded users for interviews, set meetings & took their feedback on the UI. Though it was remote with the help of the right tools & screen sharing, it was smooth.
+    I also told them to take rides for the next 2 days & took their feedback. This way, we solved major bugs before the actual release.
+ </p>
+ <br></br>
+ <p>
+ <b>Result</b> : <i>Conducting these user-faced processes helped us in building empathy towards users which is imperative for a product to have an extremely efficient User experience.</i>
+   </p>
         </ContentWrapper>
-        <LargeImage src={KellerkindImage1} />
-        <ContentWrapper>
-          <h2>The core principles of our event designs</h2>
-
-          <ul>
-            <li>
-              <p>
-                <strong>
-                  Handmade solutions are always better than standard solutions
-                </strong>
-                <br />
-                Each contributor should put emphasis on the individual design of
-                their work. E.g.: handmade screens for visuals made out of cloth
-                are better than LED screens. Custom built DIY food stands are
-                better than ready-made pavilions from the store. The visual
-                quality of the event is just as important as the acoustic
-                quality.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Waiting times should be as short as possible</strong>
-                <br />
-                Some night clubs try to always have a queue in front of their
-                door to create a sense of scarcity and exclusivity. But no one
-                wants to wait in line for an event where you have already bought
-                a ticket beforehand. Also at the bar, every minute of waiting
-                time lowers the mood of the guests. Therefore, we always
-                designed walk paths, entry and bar processes in such way that
-                waiting time is low during the whole day.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>No advertising on the event site</strong>
-                <br />
-                No banners. No promotions. No flyers from other events. We never
-                wanted to allow our art to be corrupted by clumsy advertising
-                messages or brands placing their logos everywhere trying to
-                boost their image.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Sound quality should be as good as possible</strong>
-                <br />
-                Putting emphasis on visual design does not mean forgetting why
-                people are initally attending a music event. So we always tried
-                to pay attention to have the best possible sound quality on all
-                stages.
-              </p>
-            </li>
-          </ul>
-
-          <p>
-            These basic principles contributed to the fact that our events
-            &quot;Schall im Schilf&quot; with now 6000 visitors and &quot;Back
-            to the Woods&quot; with now 9000 visitors have always been sold out
-            in the last years.
-          </p>
-        </ContentWrapper>
-        <LargeImage src={KellerkindImage4} />
-        <ContentWrapper>
-          <h2>Remote, transparent &amp; social</h2>
-
-          <p>
-            In the beginning we were a small circle of friends all living in the
-            same small town and going to the same school. As new people joined
-            the core team and me and some others left munich for studying in
-            other cities, we transitioned to working remote from different
-            German and Austrian cities. We meet at least two times a year for
-            several days at our two beatiful locations near munich two build up
-            the event sites.
-          </p>
-
-          <p>
-            To make things work remotly we had to establish transparent
-            processes. At kellerkind you can talk over everything openly, all
-            team members have access to all documents and information and
-            everyone can work as much or as little as they please. If you work
-            more, you earn more. If you work less, you earn less. Everybody
-            writes down their hours and gets paid accordingly.
-          </p>
-
-          <p>
-            Another aspect that was important to all of us is impact that our
-            work has on the world we live in. Though art and culture are an
-            important part of society, the hedonistic wasteful character of the
-            events can not be ignored completely. - When we legally founded the
-            company in 2015, we consequently made the decision to always give
-            something back as long as the company exists. We wanted to not only
-            give privileged people a break from their lives, but also to do
-            something good for children and young people who do not have the
-            same starting conditions.
-          </p>
-
-          <p>
-            In our foundation contract we have therefore embodied the principle
-            of giving away 10% of all profits annually to selected social
-            projects and institutions, all of which help children or young
-            people in one way or another
-          </p>
-
-          <h2>Outlook</h2>
-
-          <p>
-            The lose structure of the company and spendings for charity are only
-            possible because it is still a side project for all of us and nobody
-            is dependent on making a living from her or his work at kellerkind.
-          </p>
-
-          <p>
-            At the moment we have no plans to change this, but we are still
-            eager to grow our events, to create sustainable processes and to
-            keep surprising with ever more immersive and holistic experiences.
-          </p>
-        </ContentWrapper>
-        <TwoImage
-          src1={KellerkindImage2}
-          src2={KellerkindImage5}
-          maxHeight={'450px'}
-        />
       </Section>
       <Footer />
     </GlobalWrapper>

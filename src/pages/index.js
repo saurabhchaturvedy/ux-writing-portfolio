@@ -20,6 +20,9 @@ const App = () => {
       <Section id={'projects'}>
         <Work />
       </Section>
+      <Section>
+        <Writing />
+      </Section>
       <Footer />
     </GlobalWrapper>
   )

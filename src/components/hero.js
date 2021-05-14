@@ -4,6 +4,8 @@ import media from 'utils/media-queries'
 
 import Header from 'components/header'
 import Spirograph from 'components/spirograph'
+import { AnchorLink } from "gatsby-plugin-anchor-links";
+import Link from 'gatsby-link'
 
 const HeroSection = styled.section`
   height: 100vh;
@@ -20,7 +22,10 @@ const HeroSection = styled.section`
 const Hero = () => {
   return (
     <HeroSection>
-    <Spirograph/>
+    <Spirograph>
+    
+      </Spirograph>
+      
     <Header />
   </HeroSection>
   )

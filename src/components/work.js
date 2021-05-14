@@ -24,9 +24,9 @@ const Work = () => {
         <Fragment>
           <Project
             logo={LifeTimeLogo()}
-            title="UniCards"
-            abstract="New-age credit cards catering to the unmet needs of millions of Indians.
-            working as a UX Writer in the founding team of Uni Cards which is yet to be launched.
+            title="Uni Cards"
+            abstract="New-age credit cards catering to the unmet needs of millions of Indians. .
+            I am the first UX Writer in an organization of 40 people. The best thing in my experiences here was writing a product from scratch to finesse. The product is in beta and yet to be commercially launched soon.
             "
             link={LifeTimeLink}
           />
@@ -34,7 +34,7 @@ const Work = () => {
             logo={PalettteAppLogo()}
             title="Fisdom"
             abstract="Fisdom is an extremely simple app to make smart investments.
-            I was a lead UX Writer in their Product team
+            I was the first UX Writer in their Product team, collaborated with more than 10 stakeholders from design to product, and handled around 5 features during my 6 month period there.
             "
             link={PalettteLink}
           />
@@ -42,7 +42,7 @@ const Work = () => {
             logo={KellerkindLogo()}
             title="Yulu"
             abstract="Micro-mobility solutions that help reduce traffic congestion and air pollution.
-            As the first UX writer in the house, I was responsible to create a standard documentation for the company to set the content guidelines.
+            As the first UX writer in the house, I worked on revamping the overall app communication. From onboarding to support. Also, led the UX Research process for few issues and beta testing for the new search flow. .
             "
             link={KellerkindLink}
           />

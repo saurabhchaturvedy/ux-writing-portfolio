@@ -7,7 +7,7 @@ import SectionHeading from 'components/sectionHeading'
 import ScenographicsLogo from 'img/scenographicslogo'
 
 const ScenographicsLink = (
-  <a href="http://medium.com/scenographics">Read More on Medium ↗</a>
+  <a href="https://medium.com/@rchaturvedi67" target="_blank">Read More on Medium ↗</a>
 )
 
 const Writing = () => {
@@ -18,8 +18,7 @@ const Writing = () => {
       rightColumn={
         <Project
           logo={ScenographicsLogo()}
-          title="Scenographics"
-          abstract="Interview series with creative people within the festival scene. (German only)"
+          abstract="When not working on a UX-copy , i write at medium"
           link={ScenographicsLink}
         />
       }

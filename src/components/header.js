@@ -183,7 +183,7 @@ const Header = (props) => {
             onFocus={() => showTooltip('Mail')}
             onMouseLeave={hideTooltip}
             onBlur={hideTooltip}
-            aria-label="Send an email to Gabriel"
+            aria-label="Send an email to Richa"
           >
             <SvgWrapper>
               <InlineSvg>
@@ -198,7 +198,7 @@ const Header = (props) => {
             onFocus={() => showTooltip('LinkedIn')}
             onMouseLeave={hideTooltip}
             onBlur={hideTooltip}
-            aria-label="Gabriel's LinkedIn profile"
+            aria-label="Richa's LinkedIn profile"
           >
             <SvgWrapper>
               <InlineSvg>

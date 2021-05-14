@@ -7,6 +7,7 @@ const Image = styled.img`
   margin: 16px auto;
   max-height: 750px;
   max-width: 100%;
+  box-shadow: 10px 10px 10px 10px #ccc;
   border-radius: 16px;
   ${media.lg`
     max-height: 600px;

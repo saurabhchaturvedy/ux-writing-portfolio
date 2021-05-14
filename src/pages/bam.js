@@ -27,35 +27,21 @@ const Section = styled.section`
 const Bam = () => {
   return (
     <GlobalWrapper>
-      <Header title="Bäm" />
-      <CoverImage src={BamCoverImage} focusX={'44%'} focusY={'45%'} />
+      <Header title="ABB" />
       <Section>
         <ContentWrapper>
-          <h2>Products with extra bäm effect</h2>
+          <h2>Worked as a Content Writing Intern</h2>
 
-          <p>
-            Bäm is a brand and registered trademark by Dr. Johannes Jacubeit,
-            under which he has bundled and marketed various smaller projects and
-            (mostly climbing) products in the past. The common denominator is
-            the motto &quot;Bäm - make things happen.&quot;
-          </p>
-
-          <p>
-            Bäm - Afterclimb is a soothing gel for the hands, which provides for
-            a faster healing of the skin after sports climbing. I have provided
-            packaging, CI and web designs for it.
-          </p>
+          <ul>
+<li> Worked with the only content team of ABB globally.</li>
+<li> Wrote Press release for ABB Hitachi deal.</li>
+<li> Wrote articles on sustainable transportation.</li>
+<li> Covered many transportation deals on the global level.</li>
+<li>Read and researched about ABB sustainable businesses.</li>
+<li>Crafted mails for internal communication for ABB, India.</li>
+          </ul>
+          
         </ContentWrapper>
-        <LargeImage src={AfterClimbImage4} alt="Afterclimb Logo" />
-        <br />
-        <TwoImage
-          src1={AfterClimbImage1}
-          alt1="Afterclimb Wireframe"
-          src2={AfterClimbImage2}
-          alt2="Afterclimb Textured"
-        />
-        <br />
-        <FullSizeImage src={AfterClimbImage3} alt="Afterclimb Montage" />
       </Section>
       <Footer />
     </GlobalWrapper>

@@ -2,7 +2,9 @@ import React, { useEffect, useRef } from 'react'
 import styled from 'styled-components'
 import { color } from 'styles/theme'
 import debounce from 'lodash/debounce'
-import Richa from "../img/richa.svg";
+import Richa from "../img/richa.svg"
+import { StaticImage } from "gatsby-plugin-image"
+import Link from 'gatsby-link'
 
 const Div = styled.div`
   position: absolute;

@@ -22,19 +22,19 @@ const GlobalWrapper = (props) => {
       <Helmet>
         <html lang="en" />
         <title>Richa Chaturvedi</title>
-        <meta name="description" content="Gabriel Adorf's projects" />
+        <meta name="description" content="Richa Chaturvedi's projects" />
         <meta
           name="keywords"
           content="design, ux, ui, product, graphic, health, climbing, app, interface, experience, festival, techno, code"
         />
         <meta
           property="og:image"
-          content="https://www.gabrieladorf.com/static/kellerkindCover-14f87246d1614ff1cf339940bdc58186.jpg"
+          content="https://www.richachaturvedi.com/static/kellerkindCover-14f87246d1614ff1cf339940bdc58186.png"
         />
-        <meta property="og:description" content="Gabriel Adorf's projects" />
+        <meta property="og:description" content="Richa Chaturvedi's projects" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://gabrieladorf.com" />
-        <meta property="og:title" content="Gabriel Adorf" />
+        <meta property="og:url" content="https://richachaturvedi.com" />
+        <meta property="og:title" content="Richa Chaturvedi" />
 
         <link
           rel="apple-touch-icon"

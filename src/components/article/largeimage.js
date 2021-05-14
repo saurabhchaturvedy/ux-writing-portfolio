@@ -7,6 +7,8 @@ const Image = styled.img`
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
+  border-radius: 16px;
+  box-shadow: 10px 10px 10px 10px #ccc;
 `
 
 const LargeImage = (props) => {
